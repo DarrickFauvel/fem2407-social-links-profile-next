@@ -6,7 +6,7 @@ import CardSummary from "./components/summary"
 
 const Card = () => {
   return (
-    <article className="w-full flex flex-col items-center gap-6 p-8 bg-gray-800 text-white rounded-xl">
+    <article className="w-full max-w-[456px] md:max-w-[384px] flex flex-col items-center gap-4 p-8 md:p-10 bg-gray-800 text-white rounded-xl">
       <CardImage />
       <div className="flex flex-col items-center">
         <CardName>Jessica Randall</CardName>
