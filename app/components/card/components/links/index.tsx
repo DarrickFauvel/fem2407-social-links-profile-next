@@ -1,3 +1,5 @@
+import CardLink from "./components/link"
+
 const links = [
   {
     label: "GitHub",
@@ -23,11 +25,11 @@ const links = [
 
 const listItems = links.map((item) => (
   <li key={item.label}>
-    <a href={item.url}>{item.label}</a>
+    <CardLink item={item} />
   </li>
 ))
 
 const CardLinks = () => {
-  return <ul>{listItems}</ul>
+  return <ul className="flex flex-col gap-4 w-full">{listItems}</ul>
 }
 export default CardLinks
