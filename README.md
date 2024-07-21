@@ -52,7 +52,7 @@ desktop<br>
 
 ### Continued development
 
-I may create an API for this project.
+I would like to add some animation effects.
 
 ## Author
 
